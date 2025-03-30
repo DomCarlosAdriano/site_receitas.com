@@ -1,6 +1,6 @@
-.banner-todasReceitas {
+.banner-doces {
   height: 454px;
-  background-image: url("../img/todas.png");
+  background-image: url("../img/banner-doces.png");
   background-color: var(--cor-roxo-escuro);
   background-position: center right;
   background-size: contain;
@@ -9,14 +9,24 @@
   align-items: center;
 }
 
-.banner-todasReceitas__container {
+.banner-Doces__container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
+  gap: 19px;
 }
 
-.banner-todasReceitas__titulo {
+.banner-Doces__titulo {
+  max-width: 784px;
+  color: #C086C1;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 90%;
+  letter-spacing: -1.16px;
+  text-transform: uppercase;
+}
+
+.banner-Doces__Subtitulo {
   max-width: 784px;
   color: var(--cor-branco);
   font-size: 58px;
@@ -28,13 +38,13 @@
 
 
 
-.categorias_paginacao-todasAsReceitas ul{
+.categorias_paginacao-doces ul{
   display: flex;
   gap: 1rem;
 }
 
 
-.categorias_paginacao-todasAsReceitas  li{
+.categorias_paginacao-doces  li{
   background: #f4eced;
   color: #470848;
   width: fit-content;
@@ -44,7 +54,7 @@
   font-weight: bold;
 }
 
-.categorias_paginacao-todasAsReceitas ul li:nth-child(1){
+.categorias_paginacao-doces ul li:nth-child(2){
   background: #470848;
   color: #ffffff;
 } 

@@ -18,6 +18,8 @@
     gap: 1rem;
     background: none;
     border: none;
+    color: #470848;
+    font-weight: 500;
 }
 
 .container_paginacao ul{
