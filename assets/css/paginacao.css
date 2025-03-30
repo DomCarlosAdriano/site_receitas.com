@@ -1,0 +1,36 @@
+.container_paginacao{
+    background: #F9F5F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 1180px;
+    margin-top: 50px;
+    margin-inline: auto;
+    border-radius: 8px;
+    padding-inline: 2rem;
+
+}
+
+.container_paginacao button{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: none;
+    border: none;
+}
+
+.container_paginacao ul{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-weight: 600;
+}
+
+.container_paginacao ul li:nth-child(1){
+    background: #7A297B;
+    color: #F9F5F9;
+    padding: 0.7rem 1rem;
+    border-radius: 9px;
+  
+}

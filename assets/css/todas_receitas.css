@@ -26,3 +26,22 @@
   text-transform: uppercase;
 }
 
+.TodasReceitas__info ul{
+  display: flex;
+  gap: 1rem;
+}
+
+.TodasReceitas__info ul li{
+  background: #f4eced;
+  color: #470848;
+  width: fit-content;
+  padding: 0.8rem 1.8rem;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.TodasReceitas__info ul li:nth-child(1){
+  background: #470848;
+  color: #ffffff;
+}

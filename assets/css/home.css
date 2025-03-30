@@ -61,7 +61,7 @@
 * Últimas Receitas & Mais Acessadas
 */
 .ultimas-receitas__info,
-.mais-acessadas__info {
+.mais-acessadas__info,.TodasReceitas__info {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;

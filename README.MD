@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 A proposta da atividade era basicamente desenvolver o Front-end de um site de Receitas com HTML, CSS e JavaScript puro.
 
-- [Visite o projeto online](https://domcarlosadriano.netlify.app/)
+- [Visite o projeto online](https://domcarlosadriano.github.io/site_receitas.com/)
 
 ## 🔖 Layout
 

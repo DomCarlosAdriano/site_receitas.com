@@ -96,3 +96,14 @@
 .seta img {
   width: 60%;
 }
+
+
+.container_cards_todasReceitas{
+  margin: 0px auto;
+  width: 1280px;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
