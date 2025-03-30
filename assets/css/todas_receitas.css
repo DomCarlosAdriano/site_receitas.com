@@ -1,0 +1,28 @@
+.banner-todasReceitas {
+  height: 454px;
+  background-image: url("../img/todas.png");
+  background-color: var(--cor-roxo-escuro);
+  background-position: center right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.banner-todasReceitas__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.banner-todasReceitas__titulo {
+  max-width: 784px;
+  color: var(--cor-branco);
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 90%;
+  letter-spacing: -1.16px;
+  text-transform: uppercase;
+}
+

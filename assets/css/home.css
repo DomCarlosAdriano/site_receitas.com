@@ -1,0 +1,68 @@
+/**
+ * Banner Home
+ */
+
+.banner-home {
+  height: 776px;
+  background-image: url("../img/banner-home.png");
+  background-color: var(--cor-roxo-escuro);
+  background-position: center right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.banner-home__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.banner-home__titulo {
+  max-width: 465px;
+  color: var(--cor-branco);
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 90%;
+  letter-spacing: -1.16px;
+  text-transform: uppercase;
+}
+
+.banner-home__titulo>strong {
+  color: var(--cor-roxo-claro);
+}
+
+.banner-home__btn {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--cor-roxo-medio);
+
+  color: var(--cor-branco);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+  transition: all .2s ease-in-out;
+}
+
+.banner-home__btn:hover {
+  background: var(--cor-roxo-claro);
+  color: var(--cor-preto);
+}
+
+/**
+* Últimas Receitas & Mais Acessadas
+*/
+.ultimas-receitas__info,
+.mais-acessadas__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

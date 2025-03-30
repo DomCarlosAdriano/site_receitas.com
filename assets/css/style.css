@@ -1,0 +1,239 @@
+/*
+* Cores
+*/
+:root {
+  --cor-preto: #000000;
+  --cor-roxo-fundo: #F9F5F9;
+  --cor-roxo-claro: #C086C1;
+  --cor-roxo-medio: #7A297B;
+  --cor-roxo-escuro: #470848;
+  --cor-branco: #ffffff;
+
+  --max-width-header: 1312px;
+  --max-width-section: 1216px;
+}
+
+/**
+ * Global
+ */
+
+body {
+  font-family: "DM Sans", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.titulo-secao {
+  color: var(--cor-preto);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+}
+
+.section-container {
+  width: 100%;
+  max-width: var(--max-width-section);
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.section-main {
+  width: 100%;
+  padding: 96px 32px 128px;
+  box-sizing: border-box;
+}
+
+.section-main.section-main--lg {
+  padding: 128px 32px 128px;
+}
+
+.bg-roxo-fundo {
+  background-color: var(--cor-roxo-fundo);
+}
+
+.btn {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+  transition: all .2s ease-in-out;
+}
+
+.btn--primary {
+  background: var(--cor-roxo-medio);
+  color: var(--cor-branco);
+}
+
+.btn--primary:hover {
+  background: var(--cor-roxo-claro);
+  color: var(--cor-preto);
+}
+
+/**
+ * Pré-Header & Header
+ */
+
+.pre-header {
+  background-color: var(--cor-roxo-escuro);
+  color: var(--cor-branco);
+  padding: 16px 32px;
+  box-sizing: border-box;
+}
+
+.pre-header__container {
+  width: 100%;
+  max-width: var(--max-width-header);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pre-header__bemvindo {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.pre-header__menu {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.pre-header__menu-item a {
+  font-size: 15px;
+  color: var(--cor-branco);
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+.pre-header__menu-item a:hover {
+  color: var(--cor-roxo-claro);
+}
+
+.header {
+  padding: 24px 32px;
+  box-sizing: border-box;
+  background-color: var(--cor-branco);
+
+}
+
+.header__container {
+  width: 100%;
+  max-width: var(--max-width-header);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.header__menu-item a {
+  font-size: 16px;
+  color: var(--cor-preto);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all .2s ease-in-out;
+}
+
+.header__menu-item a:hover {
+  color: var(--cor-roxo-medio);
+}
+
+.header__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 50rem;
+  background: var(--cor-roxo-fundo);
+  padding: 8px 16px;
+  color: var(--cor-roxo-escuro);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+.header__btn:hover {
+  background: var(--cor-roxo-claro);
+}
+
+/**
+ * Banner Home
+ */
+
+.banner-home {
+  height: 776px;
+  background-image: url("../img/banner-home.png");
+  background-color: var(--cor-roxo-escuro);
+  background-position: center right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+
+.banner-home__titulo {
+  max-width: 465px;
+  color: var(--cor-branco);
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 90%;
+  letter-spacing: -1.16px;
+  text-transform: uppercase;
+}
+
+.banner-home__titulo>strong {
+  color: var(--cor-roxo-claro);
+}
+
+.banner-home__btn {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--cor-roxo-medio);
+
+  color: var(--cor-branco);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+  transition: all .2s ease-in-out;
+}
+
+.banner-home__btn:hover {
+  background: var(--cor-roxo-claro);
+  color: var(--cor-preto);
+}
+
+/**
+* Últimas Receitas & Mais Acessadas
+*/
+.ultimas-receitas__info,
+.mais-acessadas__info {
+  display: flex;
+  justify-content: space-between;
+}
