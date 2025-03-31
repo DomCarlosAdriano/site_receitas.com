@@ -1,0 +1,81 @@
+#main_receita {
+  padding: 5rem;
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.titlesReceita {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.titlesReceita h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.titlesReceita h2 {
+  background: #f4eced;
+  width: fit-content;
+  padding: 7px;
+  color: #470848;
+  padding: 0.7rem;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.container{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: flex;
+    gap: 6rem;
+    color: #4E4F55;
+    font-weight: 400;
+}
+
+.ingredientes{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 5rem 0;
+}
+
+.ingredientes ul{
+    padding-left: 2rem;
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.ingredientes h3, .preparo h3{
+    color: #0F151F;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.preparo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container_cardShare{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #F9F5F9;
+    padding: 2rem;
+    border-radius: 8px;
+    height: 80px;
+
+}
+
+.container_cardShare ul{
+    display: flex;
+    gap: 1rem;
+}
