@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido em grupo como tarefa avaliativa da matéria de Pro
 <br>
 
 <p align="center">
-  <img alt="visão do site" src="https://github.com/DomCarlosAdriano/DomCarlosAdrianoPortifolio/blob/master/.github/visionPage.png?raw=true" width="100%">
+  <img alt="visão do site" src="https://github.com/DomCarlosAdriano/site_receitas.com/blob/master/.github/Captura%20de%20tela%202025-03-30%20195250.png?raw=true" width="100%">
 </p>
 
 ## 🚀 Tecnologias
